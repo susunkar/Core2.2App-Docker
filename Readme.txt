@@ -1,6 +1,7 @@
 c:..\myapp
 docker build -t myapp .
-docker run -it --name myapp
+docker run -it --rm myapp
+
 
 Once run
 open other cmd
